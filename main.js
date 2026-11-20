@@ -63,11 +63,11 @@
   const typeEl = document.getElementById('typewriter');
   if (typeEl) {
     const phrases = [
+      'Data-Driven Insights',
+      'Predictive ML Models',
+      'Power BI Dashboards',
       'Full-Stack Web Apps',
       'REST APIs & Backends',
-      'AI / ML Pipelines',
-      'React Interfaces',
-      'Data-Driven Systems',
     ];
     let pIdx = 0, cIdx = 0, deleting = false;
     const SPEED_TYPE = 68, SPEED_DEL = 38, PAUSE = 1800;
