@@ -506,6 +506,10 @@ html.light .hero-title { color: var(--accent); }
 .tl-org {
   font-size: 0.8rem; color: var(--accent); font-weight: 500;
   display: flex; align-items: center; gap: 0.3rem; margin-top: 0.2rem;
+  flex-wrap: wrap;
+}
+.tl-parttime {
+  color: var(--muted); font-weight: 400; font-style: italic; font-size: 0.75rem;
 }
 .tl-date {
   font-family: 'JetBrains Mono', monospace;
